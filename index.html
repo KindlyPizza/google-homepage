@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Google Homepage</title>
+  <title>Google</title>
   <meta name="description" content="Google Homepage">
   <meta name="author" content="SitePoint">
 
@@ -14,24 +14,42 @@
 
 <body>
     <header>
-        <ul>
-            <li><a src="index.html">Gmail</a></li>
+        <ul class="topnavbar">
+            <li class="imagelink"><a src="index.html" c><img class="profile" src="images/unnamed.jpg" alt="profile picture"></a></li>
+            <li class="imagelink"><a src="index.html" class="appmenu">Apps</a></li>
             <li><a src="index.html">Images</a></li>
-            <li><a src="index.html" class="appmenu"></a></li>
+            <li><a src="index.html">Gmail</a></li>
+            
+            
         </ul>
         <center>
-            <div class="logo"><img src="/images/google-logo.png"></div>
-            <div class="searchbar">
+            <div class="logo" style="padding-top: 198px;padding-bottom: 20px;"><img src="/images/google-logo.png"></div>
+            <div class="searchbar" style="margin-bottom: 20px;">
                 <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
                 </path>
                 </svg>
                 <input type="text" placeholder="">
             </div>
-            <button>Google Search</button>
+            <div style="margin-bottom: 20px;"><button>Google Search</button>
             <button>I'm Feeling Lucky</button>
+            </div>
             <p class="language">Google offered in: <a href="index.html">Afrikaans</a> <a href="index.html">Sesotho</a> <a href="index.html">isiZulu</a> <a href="index.html">IsiXhosa</a> <a href="index.html">Setswana</a> <a href="index.html">Northern Sotho</a></p>
         </center>
     </header>
+    <footer class="bottomnavbar">
+        <div><p>South Africa</p></div>
+        <ul>
+            <li>Advertising</li>
+            <li>Business</li>
+            <li>About</li>
+            <li>How Search Works</li>
+        </ul>
+        <ul style="display:flex;flex-direction:row;float:inline-start;">
+            <li>Privacy</li>
+            <li>Terms</li>
+            <li>Settings</li>
+        </ul>
+    </footer>
 </body>
 </html>
